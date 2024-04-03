@@ -16,6 +16,10 @@
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
+		<sonar.organization>sonarqubecheck</sonar.organization>
+                <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<sonar.login>${env.SONAR_TOKEN}</sonar.login>
+
 	</properties>
 	<dependencies>
 		<dependency>
