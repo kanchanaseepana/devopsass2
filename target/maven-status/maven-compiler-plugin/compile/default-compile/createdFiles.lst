@@ -1,0 +1,3 @@
+com\nagarro\dockersample\controller\UserController.class
+com\nagarro\dockersample\Entity\User.class
+com\nagarro\dockersample\DockersampleApplication.class
