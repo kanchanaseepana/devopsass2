@@ -52,6 +52,11 @@
 				<release>11</release>
 				</configuration>
 		      </plugin>
+			 <plugin>
+            <groupId>org.sonarsource.scanner.maven</groupId>
+            <artifactId>sonar-maven-plugin</artifactId>
+            <version>3.9.1.2184</version> <!-- Replace with the latest version -->
+        </plugin>
 		</plugins>
 		<finalName>spring-boot-docker</finalName>
 	</build>
